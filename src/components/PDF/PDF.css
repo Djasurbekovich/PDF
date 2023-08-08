@@ -1,0 +1,55 @@
+.pdf-wrap {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.pdf-input {
+  font-weight: bold;
+  font-size: large;
+  font-style: italic;
+  color: #a52a2a;
+  text-shadow: 1px 1px 5px #a52a2a5a;
+  margin-bottom: 8px;
+}
+
+.pdf-text {
+  font-weight: bold;
+  font-size: large;
+  color: #a52a2a;
+}
+
+.pdf-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 16px 0 32px;
+}
+
+.pdf-btn {
+  font-size: medium;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+.pdf-btn:hover {
+  box-shadow: 1px 1px 10px #a5a5a5;
+}
+.pdf-btn:active {
+  box-shadow: none;
+}
+
+.pdf-save-btn {
+  font-size: medium;
+  background-color: #00ff00;
+  border: 1px solid #008000;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+.pdf-save-btn:hover {
+  box-shadow: 1px 1px 10px #32cd32;
+}
+.pdf-save-btn:active {
+  box-shadow: none;
+}

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=REM&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "REM", sans-serif;
+  text-align: center;
+  padding: 25px;
+}
+
+button,
+input {
+  font-family: "REM", sans-serif;
+  cursor: pointer;
+}
+
+.App-title {
+  font-size: 50px;
+  color: #a52a2a;
+  text-shadow: 1px 1px 10px #a52a2aa5;
+  margin-bottom: 25px;
+}
